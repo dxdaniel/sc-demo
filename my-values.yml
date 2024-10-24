@@ -1,4 +1,13 @@
 encrypt:
   key: "your-very-strong-secret-key-at-least-12-chars"  # Must be at least 12 characters long
-Value1: some-val
-Value2: another-val
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/dxdaniel/sc-demo.git
+          default-label: main
+
+server:
+  port: 8888
