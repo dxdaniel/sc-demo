@@ -1,5 +1,4 @@
 encrypt:
-  key: your-strong-secret-key-here  # You can also use ENCRYPT_KEY environment variable
-
+  key: "your-very-strong-secret-key-at-least-12-chars"  # Must be at least 12 characters long
 Value1: some-val
 Value2: another-val
