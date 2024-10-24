@@ -8,6 +8,8 @@ example:
 
 
 spring:
+  application:
+    name: my-values
   cloud:
     config:
       server:
