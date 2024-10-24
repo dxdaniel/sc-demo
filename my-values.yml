@@ -1,5 +1,9 @@
 encrypt:
-  key: "your-very-strong-secret-key-at-least-12-chars"  # Must be at least 12 characters long
+  keyStore:
+    location: keystore.jks
+    password: letmein
+    alias: mytestkey
+    secret: changeme
 
 example:
   message: "Hello from Spring Cloud Config!"
