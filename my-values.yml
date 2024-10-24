@@ -10,6 +10,10 @@ example:
   value: 42
   environment: "Development"
 
+myapp:
+  secretKey: '{cipher}AQA6EN7aXNXrBFVXsXq4HFa1gxHPZp9V2m6WXXuQWL...'
+  database:
+    password: '{cipher}AQA6EN7aXNXrBFVXsXq3HFa1gxHPZp9V2m6WXXuQWL...'
 
 spring:
   application:
