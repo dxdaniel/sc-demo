@@ -1,2 +1,5 @@
+encrypt:
+  key: your-strong-secret-key-here  # You can also use ENCRYPT_KEY environment variable
+
 Value1: some-val
 Value2: another-val
